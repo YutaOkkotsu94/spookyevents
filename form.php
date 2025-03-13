@@ -51,7 +51,7 @@ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+
 
 
 
-    <div class="container d-flex justify-content-center mt-5">
+    <div class="container d-flex justify-content-center mt-5 mb-5">
         <div class="card p-4 shadow" style="max-width: 900px; width: 100%;">
             <h2 class="text-center mb-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">Demande de devis</h2>
             <form action="send_mail.php" method="POST">
@@ -153,8 +153,8 @@ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+
                 </div>
             
                 <div class="mb-3">
-                    <label for="message" class="form-label">Message (facultatif)</label>
-                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Détails supplémentaires..."></textarea>
+                    <label for="message" class="form-label">Détails complémentaires (facultatif)</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Type de sol pour l'installation (gazon, béton...), plusieurs dates souhaitées..."></textarea>
                 </div>
                 
 

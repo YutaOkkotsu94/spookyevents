@@ -111,9 +111,8 @@ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+
                     </div>
                     <div class="card-body">
                       <h3 class="card-title">Safari World</h3>
-                      <p class="card-text">Offrez une <strong>aventure palpitante dans la jungle</strong> avec Safari World ! 
-                        Ce château gonflable, décoré d’animaux sauvages, est une structure parfait <strong>pour divertir 
-                          les plus petits en toute sécurité.</strong></p>
+                      <p class="card-text">Décoré d’animaux sauvages, cette est structure parfaite pour divertir les plus petits en toute sécurité.
+                      Les enfants pourront s'amuser avec des obstacles et un petit toboggan, ajoutant encore plus de fun à leur aventure !</p>
                       <p class="text-dark fw-bold"><mark>150€ / jour TTC</mark></p>
                       <a href="form.php" class="btn btn-primary">Réaliser un devis</a>
                     </div>
