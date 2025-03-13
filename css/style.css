@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+border-bottom: 1px solid rgba(160, 160, 160, 0.453);
+}
+
+.custom-header {
+    background-color: #f8f9fa;
+    margin-top: 50px;
+}
+
+.custom-header h1 {
+    font-size: 24px;
+    color: #212529;
+}
+
+.custom-header p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.custom-spacing {
+    margin-top: 100px;
+}
+
+.card {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .card .carousel-inner img {
+    height: 200px; /* ou 250px selon ce que tu veux */
+    object-fit: cover; /* ou 'contain' si tu veux que toute l’image soit visible */
+    width: 100%;
+}
+
+  .custom-header {
+    background-image: url('/spookyevents/img/bg-left.jpg'); /* Ajoutez l'image de fond ici */
+    background-size: cover; /* L'image couvre toute la zone */
+    background-position: center; /* L'image est centrée */
+    background-repeat: no-repeat; /* L'image ne se répète pas */
+    padding: 80px 0; /* Espacement autour du texte */
+    border-bottom: 2px solid #a9a9a97d; /* Bordure bleue pour délimiter */
+    
+    position: relative; /* Permet d'utiliser un pseudo-élément overlay */
+  }
+  
+  .custom-header::before {
+    content: ''; /* Nécessaire pour créer un pseudo-élément */
+    position: absolute; /* Positionnement absolu pour l'overlay */
+    top: 0; left: 0; right: 0; bottom: 0; /* Couvre tout le header */
+    background: rgba(255, 255, 255, 0.785); /* Overlay blanc avec 40% d'opacité */
+    z-index: 1; /* L'overlay doit être en dessous du texte */
+  }
+  
+  .custom-header h1, .custom-header p {
+    position: relative; /* Le texte doit être au-dessus de l'overlay */
+    z-index: 2; /* Placer le texte au-dessus de l'overlay */
+  }
+
+  .custom-header img {
+    position: relative; /* Permet à l'image d'être au-dessus de l'overlay */
+    z-index: 2; /* Placer l'image au-dessus de l'overlay */
+}
+
+.spookyContainer {
+  background-color: #350926; /* Fond violet sombre */
+  padding: 40px; /* Plus d'espace autour */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.spookyContainer .same-size {
+  width: 100%;  /* S'adapte mieux */
+  height: 450px;
+  object-fit: cover;
+  object-position: top;
+  opacity: 0.7;
+}
+
+.spookyContainer h4, 
+.spookyContainer p {
+  color: white;
+}
+
+.custom-title {
+  font-size: 3.5rem;
+}
+
+.custom-text {
+  font-size: 1rem;
+}
+
+h4.text-white {
+  font-family: 'Creepster', cursive;
+}
+
+.contactContainer {
+    padding: 100px 0; /* Espace en haut et en bas */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+
+.cookie-banner p {
+  font-size: 14px;
+}
+
+.btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-lg {
+  min-width: 120px; /* Assure que les boutons aient la même largeur */
+}
+
+
+footer {
+    background-color: #1d1d1d;
+}
+
+.footerContainer {
+width: 100%;
+padding: 50px 20px 10px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: blue;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+background-color: blue;
+transition: 0.7s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.7s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerNav ul li{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5sec;
+}
+
+.footerNav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Enlève le soulignement */  
+    transition: 0.5s;
+}
+
+
+.footerNav ul li a:hover{
+    color: #626262;
+}
+
+.footerBottom{
+    background-color: #121212;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-size: 14px;
+}
+
+
+
