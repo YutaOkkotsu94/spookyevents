@@ -326,7 +326,7 @@ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+
                 <a href="https://www.instagram.com/spookingevents/" target="_blank">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#" target="_blank"> <!-- Remplace le "#" par le lien correct de TikTok -->
+                <a href="https://www.tiktok.com/@spookingevents" target="_blank"> <!-- Remplace le "#" par le lien correct de TikTok -->
                     <i class="fa-brands fa-tiktok"></i>
                 </a>
             </div>
